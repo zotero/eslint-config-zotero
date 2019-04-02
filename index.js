@@ -96,7 +96,10 @@ module.exports = {
 		],
 		"indent": [
 			"error",
-			"tab"
+			"tab",
+			{
+				"MemberExpression": "off"
+			}
 		],
 		"init-declarations": "off",
 		"jsx-quotes": "error",
