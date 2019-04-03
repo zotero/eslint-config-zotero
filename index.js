@@ -98,6 +98,7 @@ module.exports = {
 			"error",
 			"tab",
 			{
+				"outerIIFEBody": 0,
 				"MemberExpression": "off"
 			}
 		],
