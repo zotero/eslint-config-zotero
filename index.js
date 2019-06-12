@@ -99,7 +99,8 @@ module.exports = {
 			"tab",
 			{
 				"outerIIFEBody": 0,
-				"MemberExpression": "off"
+				"MemberExpression": "off",
+				"SwitchCase": 1
 			}
 		],
 		"init-declarations": "off",
