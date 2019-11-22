@@ -328,7 +328,13 @@ module.exports = {
 		],
 		"space-infix-ops": "warn",
 		"space-unary-ops": "error",
-		"spaced-comment": "warn",
+		"spaced-comment": [
+			"warn",
+			"always",
+			{
+				"exceptions": ["*"]
+			}
+		],
 		"switch-colon-spacing": "error",
 		"symbol-description": "error",
 		"template-curly-spacing": [
