@@ -1,6 +1,6 @@
 {
 	"name": "@zotero/eslint-config",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "ESLint config for Zotero",
 	"main": "index.js",
 	"scripts": {
