@@ -139,7 +139,7 @@ module.exports = {
 		"no-bitwise": "off",
 		"no-buffer-constructor": "error",
 		"no-caller": "error",
-		"no-confusing-arrow": "error",
+		"no-confusing-arrow": ["error", {"allowParens": true}],
 		"no-constant-condition": [
 			"error",
 			{
