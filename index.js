@@ -135,7 +135,7 @@ module.exports = {
 		],
 		"no-alert": "off",
 		"no-array-constructor": "error",
-		"no-await-in-loop": "warn",
+		"no-await-in-loop": "off",
 		"no-bitwise": "off",
 		"no-buffer-constructor": "error",
 		"no-caller": "error",
