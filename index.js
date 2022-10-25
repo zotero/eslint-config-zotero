@@ -39,7 +39,12 @@ module.exports = {
 			"stroustrup"
 		],
 		"callback-return": "off",
-		"camelcase": "error",
+		"camelcase": [
+			"error",
+			{
+				"allow": ["^Zotero_", "^ZoteroPane_Local$"]
+			}
+		],
 		"capitalized-comments": "off",
 		"comma-dangle": "off",
 		"comma-spacing": [
@@ -66,7 +71,12 @@ module.exports = {
 			"error",
 			"property"
 		],
-		"dot-notation": "error",
+		"dot-notation": [
+			"error",
+			{
+				"allowPattern": "^[A-Z]"
+			}
+		],
 		"eol-last": "error",
 		"eqeqeq": "off",
 		"func-call-spacing": "error",
@@ -288,7 +298,7 @@ module.exports = {
 		"prefer-template": "off",
 		"quote-props": [
 			"error",
-			"as-needed"
+			"consistent"
 		],
 		"quotes": "off",
 		"radix": [
