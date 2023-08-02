@@ -3,7 +3,7 @@ module.exports = {
 		"eslint:recommended"
 	],
 	rules: {
-		"accessor-pairs": "error",
+		"accessor-pairs": "off",
 		"array-bracket-newline": [
 			"error",
 			"consistent"
