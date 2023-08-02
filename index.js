@@ -298,7 +298,7 @@ module.exports = {
 		"prefer-template": "off",
 		"quote-props": [
 			"error",
-			"consistent"
+			"as-needed"
 		],
 		"quotes": "off",
 		"radix": [
